@@ -1,14 +1,14 @@
 {
-    "name": "\u00d6ppet Moln",
-    "short_name": "\u00d6ppet Moln",
+    "name": "Random Password Generator",
+    "short_name": "Random Password",
     "icons": [
         {
-            "src": "https://password.oppetmoln.se/favicon/android-chrome-192x192.png",
+            "src": "https://passwd-gen.github.io/favicon/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "https://password.oppetmoln.se/favicon/android-chrome-256x256.png",
+            "src": "https://passwd-gen.github.io/favicon/android-chrome-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         }
