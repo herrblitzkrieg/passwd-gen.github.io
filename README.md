@@ -3,7 +3,7 @@
 
 # POMjs
 
-**POMjs** is a random password generator in HTML and pure Javascript. It can be customized by modifying the sources. There's really nothing magic going on here, but it works and is somewhat responsive. The goal was to make something small, useful, and reasonably free from dependencies.
+This is a fork of **POMjs** a random password generator in HTML and pure Javascript hosted on GitHub Pages. It can be customized by modifying the sources. There's really nothing magic going on here, but it works and is somewhat responsive. The goal was to make something small, useful, and reasonably free from dependencies.
 
 ## Parts
 
@@ -14,8 +14,6 @@
 ## Installation
 
 Download the distribution or clone the repo. Files and folders should be placed in your web root, or another folder accessible to your web server. All references to `CSS` and `Javascript` use relative paths.
-
-There may be references to "Öppet Moln" ("Open Cloud"), which is a Swedish site run by the author of **POMjs**, [oppetmoln.se](https://oppetmoln.se), to promote open source solutions for general use. You can, of course, delete such references.
 
 I'd appreciate a mention on whatever website you use this one, and a link to the original repo, but it's not required.
 
@@ -87,21 +85,3 @@ The "cloud icon" comes from [Streamline](https://streamlinehq.com)
 **POMjs** is licensed under the GPLv2 license. See the [`LICENSE`](LICENSE) file for more details.
 
 Copyright 2022, 2023 Joaquim Homrighausen.
-
-### Demo
-
-You can see POMjs in action, and more or less unmodified, on the following links:
-
-* Öppet Moln ("Open Cloud"); [password.oppetmoln.se](https://password.oppetmoln.se)
-* WebbPlatsen i Sverige AB; [password.webbplatsen.se](https://password.webbplatsen.se)
-
-### External references
-
-These links are not here for any sort of endorsement or marketing, they're purely for informational purposes :sunglasses:
-
-* WebbPlatsen; [webbplatsen.se](https://webbplatsen.se)
-* Öppet Moln ("Open Cloud"); [oppetmoln.se](https://oppetmoln.se)
-* me; [joho.se](https://joho.se) and [github.com/joho1968](https://github.com/joho1968)
-* POMjs repo; [github.com/joho1968/POMjs](https://github.com/joho1968/POMjs)
-* normalize.css repo; [github.com/necolas/normalize.css](https://github.com/necolas/normalize.css)
-* Streamline, Icons and Illustrations; [streamlinehq.com](https://streamlinehq.com)
