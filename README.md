@@ -56,7 +56,7 @@ Most parameters/settings can be changed in the `.js` file.
 | POM_maxLength             | 256                  | Maxmium password length                    |
 | POM_sliderStep            | 4                    | 4 - ..                                     |
 | POM_debug                 | false                | Emit "debug" output with console.log()     |
-| POM_defeault              | 16                   | Default password length                    |
+| POM_default               | 16                   | Default password length                    |
 
 ### CSS
 
