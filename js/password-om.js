@@ -1,5 +1,5 @@
 /**
- * POMjs 1.1.1
+ * POMjs 1.1.2
  *
  * password-om.js
  *
@@ -49,10 +49,11 @@ const POM_strSpecialOne_Default = true;
 const POM_strSpecialTwo_Default = false;
 const POM_mkPasswordOnLoad = true;
 const POM_changeIsClick = true;
-const POM_minLength = 8;
+const POM_minLength = 4;
 const POM_maxLength = 256;
 const POM_sliderStep = 4;
 const POM_debug = false;
+const POM_default = 16;
 
 /* Generate some strings */
 function POM_genAlphabet(isUpper = false) {
@@ -77,7 +78,7 @@ function POM_validateNumInput() {
     let mkLengthSlider = document.getElementById('mk-password-len-slider');
     if (mkLengthSlider) {
         if (this.value === '') {
-            this.value = POM_minLength;
+            this.value = POM_default;
         }
         mkLengthSlider.value = this.value;
         if (mkLengthSlider.value < POM_minLength) {
@@ -359,12 +360,12 @@ function POM_initialSetup() {
     document.getElementById('mk-password-field').value = '';
     let mkPasswordSlider = document.getElementById('mk-password-len-slider');
     if (mkPasswordSlider) {
-        mkPasswordSlider.value = POM_minLength;
+        mkPasswordSlider.value = POM_default;
         mkPasswordSlider.setAttribute("min", POM_minLength);
         mkPasswordSlider.setAttribute("max", POM_maxLength);
         mkPasswordSlider.step = POM_sliderStep;
     }
-    document.getElementById('mk-length-field').value = POM_minLength;
+    document.getElementById('mk-length-field').value = POM_default;
     /* Paint "HTML" with password source */
     document.getElementById("gen-uppercase").innerText = POM_strUppercase;
     document.getElementById("gen-lowercase").innerText = POM_strLowercase;
