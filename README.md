@@ -74,11 +74,6 @@ If you would like to contribute to the translation, please open an issue and pos
 
 ## Credits
 
-Thanks to **Peter Hampf** (hello `O/T-Track` :metal:) for the German translation :blush:
-Thanks to **Jeroen van de Leur** for the Dutch translation :blush:
-
-The "cloud icon" comes from [Streamline](https://streamlinehq.com)
-
 **POMjs** was written by Joaquim Homrighausen while converting caffeine into code :coffee:
 
 ## License
