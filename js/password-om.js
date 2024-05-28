@@ -46,14 +46,14 @@ const POM_strUppercase_Default = true;
 const POM_strLowercase_Default = true;
 const POM_strDigits_Default = true;
 const POM_strSpecialOne_Default = true;
-const POM_strSpecialTwo_Default = false;
+const POM_strSpecialTwo_Default = true;
 const POM_mkPasswordOnLoad = true;
 const POM_changeIsClick = true;
 const POM_minLength = 4;
 const POM_maxLength = 256;
 const POM_sliderStep = 4;
 const POM_debug = false;
-const POM_default = 16;
+const POM_default = 32;
 
 /* Generate some strings */
 function POM_genAlphabet(isUpper = false) {
